@@ -1,0 +1,175 @@
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{article}
+
+
+
+\usepackage{graphicx} % Required for the inclusion of images
+\usepackage{mathtools}
+\usepackage{listings}
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs
+
+\renewcommand{\labelenumi}{\alph{enumi}.} % Make numbering in the enumerate environment by letter rather than number (e.g. section 6)
+
+%\usepackage{times} % Uncomment to use the Times New Roman font
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{MiniTextEditor \\ User Manual \\ ACO} % Title
+
+\author{Andra \textsc{Lungu} \\ Lavinia \textsc{Samoila}} % Author name
+
+
+\begin{document}
+
+\maketitle % Insert the title, author and date
+
+\begin{center}
+\begin{tabular}{l r}
+
+Instructor: & Marc Bousse % Instructor/supervisor
+\end{tabular}
+\end{center}
+
+% If you wish to include an abstract, uncomment the lines below
+% \begin{abstract}
+% Abstract text
+% \end{abstract}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 1
+%----------------------------------------------------------------------------------------
+
+
+\section{General description}
+
+\subsection{Graphical User Interface(GUI) Mode}
+
+\paragraph{•} In \underline{Main.java}, make sure that the \textit{UserInterface} is correctly instantiated:
+\begin{lstlisting}
+UserInterface mainFrame = new Gui(editorEngine, history, recording);
+\end{lstlisting}
+
+\paragraph{•} Run \underline{Main.java}
+
+\paragraph{•} You will see a simple text editor (similar to the classic version of Notepad). Intuitively, you may input some text or \textit{Open} a file from your hard drive (\textit{Menu$\rightarrow$Open$\rightarrow$Browse} etc.) 
+You could then search for a key word in that text by navigating to \textit{Menu$\rightarrow$Search} and specifying the string you would like to search for. If found, the word will be highlighted for all its occurrences. Press \textit{Escape} to remove the highlighting. You can afterwards change the word and save the file back to the hard disk (\textit{Menu$\rightarrow$Save}). The \textit{Save} operation can be performed at any given time.
+
+\paragraph{•} Now that you have a text ready to be handled, select your desired area of text. Copy it using \textit{RightClick$\rightarrow$Copy} or \textit{CTRL+C}. Move your cursor to the area where you would like to duplicate your selection and \textit{RightClick$\rightarrow$Paste} or \textit{CTRL+V}. You can repeat the pasting of the same text as many times as you wish. The same explanation is available for \textit{Cut}. Only this time, your selected text will be removed.  
+
+\paragraph{•} You can undo or redo any \textit{“undoable”} command[commands such as the selection of a text cannot be undone] by clicking \textit{Edit$\rightarrow$Undo[CTRL+Z]} or \textit{Edit$\rightarrow$Redo[CTRL+Y]}.
+
+\paragraph{•} If you have a series of commands that you perform regularly and you would like to record them, \textit{Record$\rightarrow$StartRecording}. Then, Copy/Paste/Undo/Input text as many times as you consider necessary. When done, click \textit{Record$\rightarrow$EndRecording} followed by a \textit{Record$\rightarrow$PlayRecording} to replay all your recorded commands.
+
+\paragraph{•} When finished, exit by clicking \textit{Menu$\rightarrow$Quit} or by closing the main window. 
+
+
+
+
+\subsection{Command Line (\textit{CmdLine}) Mode} 
+
+\paragraph{•} In \underline{Main.java}, make sure that the \textit{UserInterface} is correctly instantiated:
+\begin{lstlisting}
+UserInterface mainFrame = new CmdLine(editorEngine, history);
+\end{lstlisting}
+
+\paragraph{•} Run \underline{Main.java}
+
+\paragraph{•} The available commands in this mode are:
+
+\begin{itemize}
+  \item 
+  	\begin{description}
+	 	\textbf{insert} \textit{startPos} \textit{textToInsert} \\
+		Inserts the string \textit{textToInsert} at position \textit{startPos}.
+	\end{description}
+  \item 
+  	\begin{description}
+	 	\textbf{cut} \textit{startPos} \textit{endPos} \\
+		Removes the text between \textit{startPos} and \textit{endPos}, and saves it in the clipboard.
+	\end{description}
+	\item 
+  	\begin{description}
+	 	\textbf{copy} \textit{startPos} \textit{endPos} \\
+		Copies the text between \textit{startPos} and \textit{endPos}, and saves it in the clipboard.
+	\end{description}
+	\item 
+  	\begin{description}
+	 	\textbf{paste} \textit{startPos} \\
+		Inserts the text previously saved in the clipboard at position \textit{startPos}.
+	\end{description}
+	\item 
+  	\begin{description}
+	 	\textbf{undo} \\
+		Undoes the effects of the previous command.
+	\end{description}
+	\item 
+  	\begin{description}
+	 	\textbf{redo}  \\
+		Re-executes the previous command that was undone.
+	\end{description}
+\end{itemize}
+
+\paragraph{•} After each command, the current text will be shown and the user will be able to issue the next command.
+
+
+%----------------------------------------------------------------------------------------
+%	SECTION 3
+%----------------------------------------------------------------------------------------
+
+\section{Implementation details}
+
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=1\textwidth]{ACO} % Include the image placeholder.png
+\caption{Class diagram.}
+\end{center}
+\end{figure}
+
+\subsection{Version 1 - Basic functionality}
+
+\paragraph{•} The edited text is contained in a buffer, represented in code by the \textit{Buffer} class. Upon the execution of a copy/cut command, the selected text is moved to the clipboard(represented in code by the \textit{Clipboard} class).
+
+\paragraph{•} The user, through the \textit{Gui} or the \textit{CmdLine}, issues a command that is stored and executed later on. The series of basic commands that can be called using this application are abstracted using the \textit{Command} interface[Design decision: Command Pattern]. The role of the Invoker is, as suggested before, played by the \textit{Gui/CmdLine}.
+
+\paragraph{•} The role of the Command is fulfilled by the \textit{Command} interface. The Concrete Commands are: \textit{Cut}, \textit{Copy}, \textit{Paste}, \textit{EnterText} and \textit{MakeSelection}. Each of the command objects will have a reference to the editor engine[the Receiver]. This entity interacts directly with the buffer as well as with the clipboard. A key listener closely follows the JEditorPane, in which the user types in words/performs operations, and communicates the changes occurred to the editor engine.
+
+\paragraph{•} Despite the fact that the text in the graphical user interface is in tandem with the editor engine, the two classes are loosely coupled due to the use of the Observer Design Pattern.
+
+\paragraph{•} Added functionalities: Save file, Open file, Search + highlight, Quit and key bindings for the rest of the commands. 
+
+\subsection{Version 2 - Recording and replaying of user commands}
+
+\paragraph{•} This feature is made possible with the aid of an ArrayList present in the \textit{Recording} class. When the user clicks Start Recording, the commands are added to that certain list. After clicking End Recording and Play, the commands in the list are redone one by one. To be in sync with the \textit{History} class, the Recording observes it [History being the Subject]. The \textit{History} class holds all the commands executed by the user since the launch of the application. For recording, however, we will only need a subset of those commands.
+
+\paragraph{•} Concretely, if Start Recording is pressed, a boolean states that we should retain the changes in history in the list of recordings. We could have used the Memento Design Pattern for the implementation. It would have saved the whole state of the buffer after executing each of the commands. Nevertheless, it is safe to assume that by using an Observer Pattern, we saved memory as we only retain the last changes performed and not the whole state of the text.
+
+\subsection{Version 3 - Undo and redo options}
+
+\paragraph{•} The \textit{History} class is the engine that makes the undo and redo operations possible. When executing a command, this command is added in the \textit{cmdList} present in the \textit{History}. A cursor increases after each add, decreases after an undo operation and increases again once redo is clicked.
+
+\paragraph{•} After executing undo, if you perform another operation, say \textit{EnterText}, the redo will not be possible. This is done again with the aid of the cursor that goes through the list and: decreases after the undo, increases after the text insertion, can no longer increase for making redo happen because the condition \begin{lstlisting} 
+	currentPosInCmdlist < cmdList.size() - 1 
+		\end{lstlisting}
+is no longer valid.
+
+\subsection{Additional comments}
+
+\paragraph{•} Building a command line interface even after implementing the GUI was natural as the commands were already isolated in their own classes.
+
+\paragraph{•} Each of the main classes contains its own JUnit test suite.
+
+\paragraph{•} To remove debug messages from showing up in the console, edit the \underline{log4j.properties} file and remove \textit{consolelogger} from \textit{log4j.rootLogger}.
+
+\paragraph{•} Repository location: http://subversion.istic.univ-rennes1.fr/m1aco20132014/LunguSamoila
+
+
+\end{document}

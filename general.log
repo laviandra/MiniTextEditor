@@ -1,0 +1,467 @@
+0    [AWT-EventQueue-0] DEBUG root  - Setting current position to 0
+27   [AWT-EventQueue-0] DEBUG root  - Setting current position to 0
+27   [AWT-EventQueue-0] DEBUG root  - Setting current position to 0
+728  [AWT-EventQueue-0] DEBUG root  - I pressed a key
+730  [AWT-EventQueue-0] DEBUG root  - Inserting <d> at 0
+731  [AWT-EventQueue-0] DEBUG root  - Setting current position to 1
+732  [AWT-EventQueue-0] DEBUG root  - Adding to history: EnterText command: startPos=0, endPos=1, text=<d>
+5168 [AWT-EventQueue-0] DEBUG root  - I pressed a key
+6504 [AWT-EventQueue-0] DEBUG root  - I pressed a key
+6504 [AWT-EventQueue-0] DEBUG root  - Inserting <vd> at 1
+6504 [AWT-EventQueue-0] DEBUG root  - Setting current position to 3
+6505 [AWT-EventQueue-0] DEBUG root  - Adding to history: EnterText command: startPos=1, endPos=3, text=<vd>
+6784 [AWT-EventQueue-0] DEBUG root  - I pressed a key
+6784 [AWT-EventQueue-0] DEBUG root  - Inserting <f> at 3
+6785 [AWT-EventQueue-0] DEBUG root  - Setting current position to 4
+6785 [AWT-EventQueue-0] DEBUG root  - Adding to history: EnterText command: startPos=3, endPos=4, text=<f>
+6808 [AWT-EventQueue-0] DEBUG root  - I pressed a key
+6808 [AWT-EventQueue-0] DEBUG root  - Inserting <v> at 4
+6808 [AWT-EventQueue-0] DEBUG root  - Setting current position to 5
+6809 [AWT-EventQueue-0] DEBUG root  - Adding to history: EnterText command: startPos=4, endPos=5, text=<v>
+6952 [AWT-EventQueue-0] DEBUG root  - I pressed a key
+7136 [AWT-EventQueue-0] DEBUG root  - I pressed a key
+7136 [AWT-EventQueue-0] DEBUG root  - Inserting <d> at 5
+7136 [AWT-EventQueue-0] DEBUG root  - Setting current position to 6
+7137 [AWT-EventQueue-0] DEBUG root  - Adding to history: EnterText command: startPos=5, endPos=6, text=<d>
+0    [main] DEBUG root  - Inserting <azerty> at 0
+1    [main] DEBUG root  - Setting current position to 6
+1    [main] DEBUG root  - Starting to record.
+2    [main] DEBUG root  - Stopping recording.
+0    [main] DEBUG root  - Stopping recording.
+2    [main] DEBUG root  - Inserting <azerty> at 0
+3    [main] DEBUG root  - Setting current position to 6
+3    [main] DEBUG root  - Starting to record.
+0    [main] DEBUG root  - Inserting <azerty> at 0
+1    [main] DEBUG root  - Setting current position to 6
+1    [main] DEBUG root  - Starting to record.
+2    [main] DEBUG root  - Stopping recording.
+0    [main] DEBUG root  - Inserting <azerty> at 0
+1    [main] DEBUG root  - Setting current position to 6
+1    [main] DEBUG root  - Starting to record.
+2    [main] DEBUG root  - Stopping recording.
+0    [main] DEBUG root  - Inserting <azerty> at 0
+0    [main] DEBUG root  - Setting current position to 6
+0    [main] DEBUG root  - Starting to record.
+2    [main] DEBUG root  - Stopping recording.
+0    [main] DEBUG root  - Inserting <azerty> at 0
+1    [main] DEBUG root  - Setting current position to 6
+1    [main] DEBUG root  - Starting to record.
+2    [main] DEBUG root  - Stopping recording.
+0    [main] DEBUG root  - Inserting <azerty> at 0
+1    [main] DEBUG root  - Setting current position to 6
+1    [main] DEBUG root  - Starting to record.
+2    [main] DEBUG root  - Stopping recording.
+0    [main] DEBUG root  - Inserting <1234> at 0
+1    [main] DEBUG root  - Setting current position to 4
+1    [main] DEBUG root  - Setting current position to 3
+1    [main] DEBUG root  - Inserting <azerty> at 0
+2    [main] DEBUG root  - Setting current position to 6
+2    [main] DEBUG root  - Inserting <azerty> at 0
+2    [main] DEBUG root  - Setting current position to 6
+2    [main] DEBUG root  - Inserting <ttt> at 2
+2    [main] DEBUG root  - Setting current position to 5
+2    [main] DEBUG root  - Inserting <azerty> at 0
+2    [main] DEBUG root  - Setting current position to 6
+2    [main] DEBUG root  - Inserting <ttt> at 6
+2    [main] DEBUG root  - Setting current position to 9
+3    [main] DEBUG root  - Inserting <azerty> at 0
+3    [main] DEBUG root  - Setting current position to 6
+3    [main] DEBUG root  - Inserting <azerty> at 0
+3    [main] DEBUG root  - Setting current position to 6
+3    [main] DEBUG root  - Removing text between 2 4
+3    [main] DEBUG root  - Removing from <azerty>, pos 2 4
+3    [main] DEBUG root  - Setting current position to 2
+3    [main] DEBUG root  - Inserting <azerty> at 0
+3    [main] DEBUG root  - Setting current position to 6
+4    [main] DEBUG root  - Removing text between 0 6
+4    [main] DEBUG root  - Removing from <azerty>, pos 0 6
+4    [main] DEBUG root  - Setting current position to 0
+4    [main] DEBUG root  - Setting selection to 0 5
+5    [main] DEBUG root  - Setting selection to -5 -1
+6    [main] DEBUG root  - Inserting <azerty> at 0
+6    [main] DEBUG root  - Setting current position to 6
+6    [main] DEBUG root  - Setting selection to 1 3
+7    [main] DEBUG root  - Inserting <azerty> at 0
+7    [main] DEBUG root  - Setting current position to 6
+7    [main] DEBUG root  - Setting selection to 1 3
+7    [main] DEBUG root  - Setting the clipboard to <ze>
+7    [main] DEBUG root  - Inserting <azerty> at 0
+7    [main] DEBUG root  - Setting current position to 6
+7    [main] DEBUG root  - Setting selection to 0 0
+7    [main] DEBUG root  - Setting the clipboard to <>
+7    [main] DEBUG root  - Pasting: 
+7    [main] DEBUG root  - Inserting <> at 6
+7    [main] DEBUG root  - Setting current position to 6
+8    [main] DEBUG root  - Inserting <azerty> at 0
+8    [main] DEBUG root  - Setting current position to 6
+8    [main] DEBUG root  - Setting selection to 1 3
+8    [main] DEBUG root  - Cutting <ze>, from 1
+8    [main] DEBUG root  - Removing text between 1 3
+8    [main] DEBUG root  - Removing from <azerty>, pos 1 3
+8    [main] DEBUG root  - Setting current position to 1
+8    [main] DEBUG root  - Inserting <azerty> at 0
+8    [main] DEBUG root  - Setting current position to 6
+8    [main] DEBUG root  - Setting selection to 1 3
+8    [main] DEBUG root  - Setting the clipboard to <ze>
+8    [main] DEBUG root  - Cutting <ze>, from 1
+8    [main] DEBUG root  - Removing text between 1 3
+8    [main] DEBUG root  - Removing from <azerty>, pos 1 3
+8    [main] DEBUG root  - Setting current position to 1
+9    [main] DEBUG root  - Inserting <azerty> at 0
+9    [main] DEBUG root  - Setting current position to 6
+9    [main] DEBUG root  - Setting selection to 1 3
+9    [main] DEBUG root  - Setting the clipboard to <ze>
+9    [main] DEBUG root  - Pasting: ze
+9    [main] DEBUG root  - Inserting <ze> at 6
+9    [main] DEBUG root  - Setting current position to 8
+9    [main] DEBUG root  - Inserting <azerty> at 0
+9    [main] DEBUG root  - Setting current position to 6
+9    [main] DEBUG root  - Setting selection to 1 3
+9    [main] DEBUG root  - Setting the clipboard to <ze>
+10   [main] DEBUG root  - Setting selection to 3 4
+10   [main] DEBUG root  - Pasting: ze
+10   [main] DEBUG root  - Inserting <ze> at 6
+10   [main] DEBUG root  - Setting current position to 8
+10   [main] DEBUG root  - Inserting <azerty> at 0
+10   [main] DEBUG root  - Setting current position to 6
+10   [main] DEBUG root  - Setting selection to 1 3
+10   [main] DEBUG root  - Setting the clipboard to <ze>
+10   [main] DEBUG root  - Setting the clipboard to <ze>
+10   [main] DEBUG root  - Inserting <azerty> at 0
+11   [main] DEBUG root  - Setting current position to 6
+11   [main] DEBUG root  - Pasting: 
+11   [main] DEBUG root  - Inserting <> at 6
+11   [main] DEBUG root  - Setting current position to 6
+11   [main] DEBUG root  - Inserting <azerty> at 0
+11   [main] DEBUG root  - Setting current position to 6
+11   [main] DEBUG root  - Setting selection to 1 3
+11   [main] DEBUG root  - Setting the clipboard to <ze>
+11   [main] DEBUG root  - Pasting: ze
+11   [main] DEBUG root  - Inserting <ze> at 6
+11   [main] DEBUG root  - Setting current position to 8
+11   [main] DEBUG root  - Reversing paste
+12   [main] DEBUG root  - Removing text between 6 8
+12   [main] DEBUG root  - Removing from <azertyze>, pos 6 8
+12   [main] DEBUG root  - Setting current position to 6
+12   [main] DEBUG root  - Inserting <azerty> at 0
+12   [main] DEBUG root  - Setting current position to 6
+12   [main] DEBUG root  - Setting selection to 1 3
+12   [main] DEBUG root  - Setting the clipboard to <ze>
+12   [main] DEBUG root  - Pasting: ze
+12   [main] DEBUG root  - Inserting <ze> at 6
+12   [main] DEBUG root  - Setting current position to 8
+12   [main] DEBUG root  - Pasting: ze
+12   [main] DEBUG root  - Inserting <ze> at 8
+12   [main] DEBUG root  - Setting current position to 10
+12   [main] DEBUG root  - Reversing paste
+12   [main] DEBUG root  - Removing text between 8 10
+13   [main] DEBUG root  - Removing from <azertyzeze>, pos 8 10
+13   [main] DEBUG root  - Setting current position to 8
+13   [main] DEBUG root  - Pasting: ze
+13   [main] DEBUG root  - Inserting <ze> at 6
+13   [main] DEBUG root  - Setting current position to 8
+13   [main] DEBUG root  - Inserting <azerty> at 0
+13   [main] DEBUG root  - Setting current position to 6
+13   [main] DEBUG root  - Setting selection to 1 3
+13   [main] DEBUG root  - Setting the clipboard to <ze>
+13   [main] DEBUG root  - Pasting: ze
+13   [main] DEBUG root  - Inserting <ze> at 6
+13   [main] DEBUG root  - Setting current position to 8
+13   [main] DEBUG root  - Pasting: ze
+13   [main] DEBUG root  - Inserting <ze> at 8
+14   [main] DEBUG root  - Setting current position to 10
+14   [main] DEBUG root  - Reversing paste
+14   [main] DEBUG root  - Removing text between 8 10
+14   [main] DEBUG root  - Removing from <azertyzeze>, pos 8 10
+14   [main] DEBUG root  - Setting current position to 8
+14   [main] DEBUG root  - Reversing paste
+14   [main] DEBUG root  - Removing text between 6 8
+14   [main] DEBUG root  - Removing from <azertyze>, pos 6 8
+14   [main] DEBUG root  - Setting current position to 6
+14   [main] DEBUG root  - Pasting: ze
+14   [main] DEBUG root  - Inserting <ze> at 6
+14   [main] DEBUG root  - Setting current position to 8
+14   [main] DEBUG root  - Inserting <azerty> at 6
+14   [main] DEBUG root  - Setting current position to 12
+14   [main] DEBUG root  - Inserting <azerty> at 6
+14   [main] DEBUG root  - Setting current position to 12
+15   [main] DEBUG root  - Inserting <azerty> at 0
+15   [main] DEBUG root  - Setting current position to 6
+15   [main] DEBUG root  - Setting selection to 1 3
+15   [main] DEBUG root  - Cutting <ze>, from 1
+15   [main] DEBUG root  - Removing text between 1 3
+15   [main] DEBUG root  - Removing from <azerty>, pos 1 3
+15   [main] DEBUG root  - Setting current position to 1
+15   [main] DEBUG root  - Pasting: ze
+15   [main] DEBUG root  - Inserting <ze> at 1
+15   [main] DEBUG root  - Setting current position to 3
+15   [main] DEBUG root  - Reversing paste
+15   [main] DEBUG root  - Removing text between 1 3
+15   [main] DEBUG root  - Removing from <azerty>, pos 1 3
+15   [main] DEBUG root  - Setting current position to 1
+0    [main] DEBUG root  - Inserting <azerty> at 0
+1    [main] DEBUG root  - Setting current position to 6
+1    [main] DEBUG root  - Starting to record.
+2    [main] DEBUG root  - Stopping recording.
+0    [AWT-EventQueue-0] DEBUG root  - Setting current position to 0
+13   [AWT-EventQueue-0] DEBUG root  - Setting current position to 0
+14   [AWT-EventQueue-0] DEBUG root  - Setting current position to 0
+962  [AWT-EventQueue-0] DEBUG root  - I pressed a key
+964  [AWT-EventQueue-0] DEBUG root  - Inserting <l> at 0
+964  [AWT-EventQueue-0] DEBUG root  - Setting current position to 1
+965  [AWT-EventQueue-0] DEBUG root  - Adding to history: EnterText command: startPos=0, endPos=1, text=<l>
+1058 [AWT-EventQueue-0] DEBUG root  - I pressed a key
+1059 [AWT-EventQueue-0] DEBUG root  - Inserting <a> at 1
+1059 [AWT-EventQueue-0] DEBUG root  - Setting current position to 2
+1059 [AWT-EventQueue-0] DEBUG root  - Adding to history: EnterText command: startPos=1, endPos=2, text=<a>
+1186 [AWT-EventQueue-0] DEBUG root  - I pressed a key
+1187 [AWT-EventQueue-0] DEBUG root  - Inserting <l> at 2
+1187 [AWT-EventQueue-0] DEBUG root  - Setting current position to 3
+1187 [AWT-EventQueue-0] DEBUG root  - Adding to history: EnterText command: startPos=2, endPos=3, text=<l>
+1234 [AWT-EventQueue-0] DEBUG root  - I pressed a key
+1234 [AWT-EventQueue-0] DEBUG root  - Inserting <a> at 3
+1235 [AWT-EventQueue-0] DEBUG root  - Setting current position to 4
+1235 [AWT-EventQueue-0] DEBUG root  - Adding to history: EnterText command: startPos=3, endPos=4, text=<a>
+1370 [AWT-EventQueue-0] DEBUG root  - I pressed a key
+1371 [AWT-EventQueue-0] DEBUG root  - Inserting <l> at 4
+1371 [AWT-EventQueue-0] DEBUG root  - Setting current position to 5
+1371 [AWT-EventQueue-0] DEBUG root  - Adding to history: EnterText command: startPos=4, endPos=5, text=<l>
+1434 [AWT-EventQueue-0] DEBUG root  - I pressed a key
+1435 [AWT-EventQueue-0] DEBUG root  - Inserting <a> at 5
+1435 [AWT-EventQueue-0] DEBUG root  - Setting current position to 6
+1435 [AWT-EventQueue-0] DEBUG root  - Adding to history: EnterText command: startPos=5, endPos=6, text=<a>
+1562 [AWT-EventQueue-0] DEBUG root  - I pressed a key
+1563 [AWT-EventQueue-0] DEBUG root  - Inserting <l> at 6
+1563 [AWT-EventQueue-0] DEBUG root  - Setting current position to 7
+1563 [AWT-EventQueue-0] DEBUG root  - Adding to history: EnterText command: startPos=6, endPos=7, text=<l>
+1618 [AWT-EventQueue-0] DEBUG root  - I pressed a key
+1619 [AWT-EventQueue-0] DEBUG root  - Inserting <a> at 7
+1619 [AWT-EventQueue-0] DEBUG root  - Setting current position to 8
+1619 [AWT-EventQueue-0] DEBUG root  - Adding to history: EnterText command: startPos=7, endPos=8, text=<a>
+1795 [AWT-EventQueue-0] DEBUG root  - I pressed a key
+1795 [AWT-EventQueue-0] DEBUG root  - Inserting <l> at 8
+1795 [AWT-EventQueue-0] DEBUG root  - Setting current position to 9
+1796 [AWT-EventQueue-0] DEBUG root  - Adding to history: EnterText command: startPos=8, endPos=9, text=<l>
+1874 [AWT-EventQueue-0] DEBUG root  - I pressed a key
+1875 [AWT-EventQueue-0] DEBUG root  - Inserting <a> at 9
+1875 [AWT-EventQueue-0] DEBUG root  - Setting current position to 10
+1875 [AWT-EventQueue-0] DEBUG root  - Adding to history: EnterText command: startPos=9, endPos=10, text=<a>
+4143 [AWT-EventQueue-0] DEBUG root  - Stopping recording.
+0    [main] DEBUG root  - Starting to record.
+2    [main] DEBUG root  - Stopping recording.
+2    [main] DEBUG root  - Starting to record.
+3    [main] DEBUG root  - Adding to history: EnterText command: startPos=0, endPos=6, text=<azerty>
+3    [main] DEBUG root  - Added to recording with EnterText command: startPos=0, endPos=6, text=<azerty>
+3    [main] DEBUG root  - Inserting <azerty> at 0
+3    [main] DEBUG root  - Setting current position to 6
+3    [main] DEBUG root  - Setting selection to 1 3
+4    [main] DEBUG root  - Setting the clipboard to <ze>
+5    [main] DEBUG root  - Adding to history: Paste command: startPos=6, textToPaste<ze>
+5    [main] DEBUG root  - Added to recording with Paste command: startPos=6, textToPaste<ze>
+5    [main] DEBUG root  - Pasting: ze
+5    [main] DEBUG root  - Inserting <ze> at 6
+5    [main] DEBUG root  - Setting current position to 8
+5    [main] DEBUG root  - Adding to history: Paste command: startPos=8, textToPaste<ze>
+5    [main] DEBUG root  - Added to recording with Paste command: startPos=8, textToPaste<ze>
+5    [main] DEBUG root  - Pasting: ze
+5    [main] DEBUG root  - Inserting <ze> at 8
+5    [main] DEBUG root  - Setting current position to 10
+5    [main] DEBUG root  - Stopping recording.
+0    [AWT-EventQueue-0] DEBUG root  - Starting to record.
+0    [AWT-EventQueue-0] DEBUG root  - Playing recording.
+0    [main] DEBUG root  - Starting to record.
+1    [main] DEBUG root  - Adding to history: EnterText command: startPos=0, endPos=6, text=<azerty>
+1    [main] DEBUG root  - Added to recording with EnterText command: startPos=0, endPos=6, text=<azerty>
+1    [main] DEBUG root  - Inserting <azerty> at 0
+1    [main] DEBUG root  - Setting current position to 6
+2    [main] DEBUG root  - Setting selection to 1 3
+3    [main] DEBUG root  - Setting the clipboard to <ze>
+3    [main] DEBUG root  - Adding to history: Paste command: startPos=6, textToPaste<ze>
+3    [main] DEBUG root  - Added to recording with Paste command: startPos=6, textToPaste<ze>
+3    [main] DEBUG root  - Pasting: ze
+3    [main] DEBUG root  - Inserting <ze> at 6
+3    [main] DEBUG root  - Setting current position to 8
+3    [main] DEBUG root  - Adding to history: Paste command: startPos=8, textToPaste<ze>
+3    [main] DEBUG root  - Added to recording with Paste command: startPos=8, textToPaste<ze>
+4    [main] DEBUG root  - Pasting: ze
+4    [main] DEBUG root  - Inserting <ze> at 8
+4    [main] DEBUG root  - Setting current position to 10
+4    [main] DEBUG root  - Stopping recording.
+4    [main] DEBUG root  - Playing recording.
+4    [main] DEBUG root  - Inserting <azerty> at 0
+4    [main] DEBUG root  - Setting current position to 6
+1004 [main] DEBUG root  - Pasting: ze
+1004 [main] DEBUG root  - Inserting <ze> at 6
+1004 [main] DEBUG root  - Setting current position to 8
+2005 [main] DEBUG root  - Pasting: ze
+2005 [main] DEBUG root  - Inserting <ze> at 8
+2005 [main] DEBUG root  - Setting current position to 10
+0    [AWT-EventQueue-0] DEBUG root  - Playing recording.
+0    [main] DEBUG root  - Playing recording.
+0    [main] DEBUG root  - Inserting <azerty> at 0
+0    [main] DEBUG root  - Setting current position to 6
+1    [main] DEBUG root  - Setting selection to 1 3
+2    [main] DEBUG root  - Cutting <ze>, from 1
+2    [main] DEBUG root  - Removing text between 1 3
+2    [main] DEBUG root  - Removing from <azerty>, pos 1 3
+2    [main] DEBUG root  - Setting current position to 1
+0    [main] DEBUG root  - Inserting <azerty> at 0
+1    [main] DEBUG root  - Setting current position to 6
+2    [main] DEBUG root  - Setting selection to 1 3
+2    [main] DEBUG root  - Cutting <ze>, from 1
+2    [main] DEBUG root  - Removing text between 1 3
+3    [main] DEBUG root  - Removing from <azerty>, pos 1 3
+3    [main] DEBUG root  - Setting current position to 1
+0    [main] DEBUG root  - Inserting <azerty> at 0
+1    [main] DEBUG root  - Setting current position to 6
+2    [main] DEBUG root  - Setting selection to 1 3
+3    [main] DEBUG root  - Setting the clipboard to <ze>
+0    [AWT-EventQueue-0] DEBUG root  - I pressed a key
+2    [AWT-EventQueue-0] DEBUG root  - Inserting <fies> at 0
+2    [AWT-EventQueue-0] DEBUG root  - Setting current position to 4
+3    [AWT-EventQueue-0] DEBUG root  - Adding to history: EnterText command: startPos=0, endPos=4, text=<fies>
+3    [AWT-EventQueue-0] DEBUG root  - I pressed a key
+4    [AWT-EventQueue-0] DEBUG root  - I pressed a key
+4    [AWT-EventQueue-0] DEBUG root  - Inserting <j> at 4
+4    [AWT-EventQueue-0] DEBUG root  - Setting current position to 5
+4    [AWT-EventQueue-0] DEBUG root  - Adding to history: EnterText command: startPos=4, endPos=5, text=<j>
+58   [AWT-EventQueue-0] DEBUG root  - I pressed a key
+58   [AWT-EventQueue-0] DEBUG root  - Inserting <o> at 5
+58   [AWT-EventQueue-0] DEBUG root  - Setting current position to 6
+59   [AWT-EventQueue-0] DEBUG root  - Adding to history: EnterText command: startPos=5, endPos=6, text=<o>
+59   [AWT-EventQueue-0] DEBUG root  - I pressed a key
+162  [AWT-EventQueue-0] DEBUG root  - I pressed a key
+162  [AWT-EventQueue-0] DEBUG root  - Inserting <fe> at 6
+162  [AWT-EventQueue-0] DEBUG root  - Setting current position to 8
+163  [AWT-EventQueue-0] DEBUG root  - Adding to history: EnterText command: startPos=6, endPos=8, text=<fe>
+210  [AWT-EventQueue-0] DEBUG root  - I pressed a key
+210  [AWT-EventQueue-0] DEBUG root  - Inserting <z> at 8
+210  [AWT-EventQueue-0] DEBUG root  - Setting current position to 9
+211  [AWT-EventQueue-0] DEBUG root  - Adding to history: EnterText command: startPos=8, endPos=9, text=<z>
+242  [AWT-EventQueue-0] DEBUG root  - I pressed a key
+250  [AWT-EventQueue-0] DEBUG root  - I pressed a key
+378  [AWT-EventQueue-0] DEBUG root  - I pressed a key
+378  [AWT-EventQueue-0] DEBUG root  - Inserting <fj> at 9
+378  [AWT-EventQueue-0] DEBUG root  - Setting current position to 11
+379  [AWT-EventQueue-0] DEBUG root  - Adding to history: EnterText command: startPos=9, endPos=11, text=<fj>
+380  [AWT-EventQueue-0] DEBUG root  - I pressed a key
+1806 [AWT-EventQueue-0] DEBUG root  - Setting current position to 4
+2381 [AWT-EventQueue-0] DEBUG root  - Setting current position to 8
+2389 [AWT-EventQueue-0] DEBUG root  - Setting selection to 4 8
+3377 [AWT-EventQueue-0] DEBUG root  - Setting the clipboard to <jofe>
+3482 [AWT-EventQueue-0] DEBUG root  - I pressed a key
+3538 [AWT-EventQueue-0] DEBUG root  - I pressed a key
+4285 [AWT-EventQueue-0] DEBUG root  - Setting current position to 11
+4341 [AWT-EventQueue-0] DEBUG root  - Setting current position to 11
+4341 [AWT-EventQueue-0] DEBUG root  - Setting current position to 11
+5197 [AWT-EventQueue-0] DEBUG root  - Pasting: jofe
+5197 [AWT-EventQueue-0] DEBUG root  - Inserting <jofe> at 11
+5198 [AWT-EventQueue-0] DEBUG root  - Setting current position to 15
+5198 [AWT-EventQueue-0] DEBUG root  - Adding to history: Paste command: startPos=11, textToPaste<jofe>
+5250 [AWT-EventQueue-0] DEBUG root  - I pressed a key
+5314 [AWT-EventQueue-0] DEBUG root  - I pressed a key
+9786 [AWT-EventQueue-0] DEBUG root  - Reversing paste
+9786 [AWT-EventQueue-0] DEBUG root  - Removing text between 11 15
+9786 [AWT-EventQueue-0] DEBUG root  - Removing from <fiesjofezfjjofe>, pos 11 15
+9787 [AWT-EventQueue-0] DEBUG root  - Setting current position to 11
+9842 [AWT-EventQueue-0] DEBUG root  - I pressed a key
+9898 [AWT-EventQueue-0] DEBUG root  - I pressed a key
+0    [main] DEBUG root  - Inserting <azerty> at 0
+0    [main] DEBUG root  - Setting current position to 6
+1    [main] DEBUG root  - Setting selection to 1 3
+2    [main] DEBUG root  - Setting the clipboard to <ze>
+2    [main] DEBUG root  - Pasting: ze
+2    [main] DEBUG root  - Inserting <ze> at 6
+2    [main] DEBUG root  - Setting current position to 8
+0    [main] DEBUG root  - Inserting <azerty> at 0
+1    [main] DEBUG root  - Setting current position to 6
+2    [main] DEBUG root  - Setting selection to 1 3
+2    [main] DEBUG root  - Cutting <ze>, from 1
+2    [main] DEBUG root  - Removing text between 1 3
+3    [main] DEBUG root  - Removing from <azerty>, pos 1 3
+3    [main] DEBUG root  - Setting current position to 1
+3    [main] DEBUG root  - Pasting: ze
+3    [main] DEBUG root  - Inserting <ze> at 1
+3    [main] DEBUG root  - Setting current position to 3
+0    [main] DEBUG root  - Adding to history: EnterText command: startPos=0, endPos=6, text=<azerty>
+1    [main] DEBUG root  - Inserting <azerty> at 0
+1    [main] DEBUG root  - Setting current position to 6
+2    [main] DEBUG root  - Setting selection to 1 3
+3    [main] DEBUG root  - Adding to history: Cut command: startPos=1, textToCut=<ze>
+3    [main] DEBUG root  - Cutting <ze>, from 1
+3    [main] DEBUG root  - Removing text between 1 3
+3    [main] DEBUG root  - Removing from <azerty>, pos 1 3
+3    [main] DEBUG root  - Setting current position to 1
+4    [main] DEBUG root  - Adding to history: Paste command: startPos=1, textToPaste<ze>
+4    [main] DEBUG root  - Pasting: ze
+5    [main] DEBUG root  - Inserting <ze> at 1
+5    [main] DEBUG root  - Setting current position to 3
+0    [main] DEBUG root  - Inserting <azerty> at 0
+1    [main] DEBUG root  - Setting current position to 6
+1    [main] DEBUG root  - Setting selection to 1 3
+2    [main] DEBUG root  - Setting the clipboard to <ze>
+3    [main] DEBUG root  - Pasting: ze
+3    [main] DEBUG root  - Inserting <ze> at 6
+3    [main] DEBUG root  - Setting current position to 8
+3    [main] DEBUG root  - Reversing paste
+3    [main] DEBUG root  - Removing text between 6 8
+3    [main] DEBUG root  - Removing from <azertyze>, pos 6 8
+3    [main] DEBUG root  - Setting current position to 6
+0    [main] DEBUG root  - Inserting <azerty> at 0
+0    [main] DEBUG root  - Setting current position to 6
+4    [main] DEBUG root  - Setting selection to 1 3
+6    [main] DEBUG root  - Setting the clipboard to <ze>
+10   [main] DEBUG root  - Pasting: ze
+10   [main] DEBUG root  - Inserting <ze> at 6
+11   [main] DEBUG root  - Setting current position to 8
+11   [main] DEBUG root  - Reversing paste
+11   [main] DEBUG root  - Removing text between 6 8
+11   [main] DEBUG root  - Removing from <azertyze>, pos 6 8
+11   [main] DEBUG root  - Setting current position to 6
+11   [main] DEBUG root  - Pasting: ze
+11   [main] DEBUG root  - Inserting <ze> at 6
+11   [main] DEBUG root  - Setting current position to 8
+0    [AWT-EventQueue-0] DEBUG root  - I pressed a key
+2    [AWT-EventQueue-0] DEBUG root  - Inserting <fd> at 0
+2    [AWT-EventQueue-0] DEBUG root  - Setting current position to 2
+3    [AWT-EventQueue-0] DEBUG root  - Adding to history: EnterText command: startPos=0, endPos=2, text=<fd>
+4    [AWT-EventQueue-0] DEBUG root  - I pressed a key
+4    [AWT-EventQueue-0] DEBUG root  - Inserting <n> at 2
+4    [AWT-EventQueue-0] DEBUG root  - Setting current position to 3
+4    [AWT-EventQueue-0] DEBUG root  - Adding to history: EnterText command: startPos=2, endPos=3, text=<n>
+7    [AWT-EventQueue-0] DEBUG root  - I pressed a key
+7    [AWT-EventQueue-0] DEBUG root  - Inserting <bv> at 3
+7    [AWT-EventQueue-0] DEBUG root  - Setting current position to 5
+8    [AWT-EventQueue-0] DEBUG root  - Adding to history: EnterText command: startPos=3, endPos=5, text=<bv>
+8    [AWT-EventQueue-0] DEBUG root  - I pressed a key
+37   [AWT-EventQueue-0] DEBUG root  - I pressed a key
+229  [AWT-EventQueue-0] DEBUG root  - I pressed a key
+229  [AWT-EventQueue-0] DEBUG root  - Inserting <fdl> at 5
+229  [AWT-EventQueue-0] DEBUG root  - Setting current position to 8
+230  [AWT-EventQueue-0] DEBUG root  - Adding to history: EnterText command: startPos=5, endPos=8, text=<fdl>
+237  [AWT-EventQueue-0] DEBUG root  - I pressed a key
+238  [AWT-EventQueue-0] DEBUG root  - I pressed a key
+2393 [AWT-EventQueue-0] DEBUG root  - Setting current position to 8
+2984 [AWT-EventQueue-0] DEBUG root  - Setting current position to 0
+2986 [AWT-EventQueue-0] DEBUG root  - Setting selection to 0 8
+5365 [AWT-EventQueue-0] DEBUG root  - I pressed a key
+5365 [AWT-EventQueue-0] DEBUG root  - Removing text between -5 0
+5365 [AWT-EventQueue-0] DEBUG root  - Removing from <fdnbvfdl>, pos -5 0
+5369 [AWT-EventQueue-0] DEBUG root  - I pressed a key
+5369 [AWT-EventQueue-0] DEBUG root  - Removing text between -5 0
+5369 [AWT-EventQueue-0] DEBUG root  - Removing from <fdnbvfdl>, pos -5 0
+5477 [AWT-EventQueue-0] DEBUG root  - I pressed a key
+5478 [AWT-EventQueue-0] DEBUG root  - Removing text between -5 0
+5478 [AWT-EventQueue-0] DEBUG root  - Removing from <fdnbvfdl>, pos -5 0
+5557 [AWT-EventQueue-0] DEBUG root  - I pressed a key
+5557 [AWT-EventQueue-0] DEBUG root  - Removing text between -1 0
+5557 [AWT-EventQueue-0] DEBUG root  - Removing from <fdnbvfdl>, pos -1 0
+5560 [AWT-EventQueue-0] DEBUG root  - I pressed a key
+5560 [AWT-EventQueue-0] DEBUG root  - Removing text between -1 0
+5560 [AWT-EventQueue-0] DEBUG root  - Removing from <fdnbvfdl>, pos -1 0
+5562 [AWT-EventQueue-0] DEBUG root  - I pressed a key
+5562 [AWT-EventQueue-0] DEBUG root  - Removing text between -1 0
+5562 [AWT-EventQueue-0] DEBUG root  - Removing from <fdnbvfdl>, pos -1 0
+5653 [AWT-EventQueue-0] DEBUG root  - I pressed a key
+5653 [AWT-EventQueue-0] DEBUG root  - Removing text between -1 0
+5653 [AWT-EventQueue-0] DEBUG root  - Removing from <fdnbvfdl>, pos -1 0
